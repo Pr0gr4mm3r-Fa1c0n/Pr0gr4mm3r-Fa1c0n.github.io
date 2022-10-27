@@ -3,14 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
     <head>
       <title>Halloween Game</title>
     </head>
     
     <body>
         hello
-        
+
     </body>
     </div>
   );
