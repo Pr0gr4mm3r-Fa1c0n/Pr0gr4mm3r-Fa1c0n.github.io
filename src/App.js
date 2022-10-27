@@ -14,6 +14,7 @@ function App() {
         <body>Hello</body>
         </header>
     </body>
+    </div>
   );
 }
 
