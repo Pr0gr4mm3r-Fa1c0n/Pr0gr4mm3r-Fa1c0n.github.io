@@ -13,6 +13,7 @@ jobs:
         run: |
           git config --local user.email "pr0gr4mm3r-fa1c0n.github.io@noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          git remote add origin https://github.com/Pr0gr4mm3r-Fa1c0n/Pr0gr4mm3r-fa1c0n.github.io.git
           git pull
 
       - name : Install Deps
