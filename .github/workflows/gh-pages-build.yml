@@ -13,11 +13,16 @@ jobs:
         run: |
           git config --local user.email "pr0gr4mm3r-fa1c0n.github.io@noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git remote add origin https://github.com/Pr0gr4mm3r-Fa1c0n/Pr0gr4mm3r-fa1c0n.github.io.git
           git pull
 
       - name : Install Deps
         run : npm install .
+
+      - name : build
+        run : npm run build
       
-      - name : deploy
-        run : npm run deploy
+      - name: Set Up git
+        run: |
+          git add .
+          git commit -m "Update website to recent changes"
+          git push -u origin gh-pages
