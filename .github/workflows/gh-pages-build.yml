@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Set Up git
         run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "pr0gr4mm3r-fa1c0n.github.io@noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git pull
 
