@@ -9,12 +9,8 @@ function App() {
     </head>
     
     <body>
-        <header className="App-header">
-        <h1> Halloween </h1>
-        <body>Hello
-              test  yooooo
-        </body>
-        </header>
+        hello
+        
     </body>
     </div>
   );
