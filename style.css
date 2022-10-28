@@ -1,3 +1,25 @@
-.header{
+*{
+    background-image: url(images/images.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
     text-align: center;
+}
+
+.imgright {
+    float: right;
+}
+
+button {
+    position:fixed;
+    right:10px;
+    bottom: 10px;
+    background-color: orangered;
+}
+
+button:hover{
+    background-color: red;
 }
